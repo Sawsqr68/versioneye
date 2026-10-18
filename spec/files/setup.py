@@ -11,11 +11,11 @@ setup(name='giki',
 		for i in os.walk('giki')
 		if '__init__.py' in i[2]],
 	install_requires=[
-		'dulwich==0.8.5',
-		'jinja2==2.6',
-		'Werkzeug==0.8.3',
+		'dulwich==1.2.9',
+		'jinja2==3.1.6',
+		'Werkzeug==3.1.9',
 		# formatters
-		'markdown2==2.0.1',
+		'markdown2==2.4.0',
 		'docutils==0.9.1',
 		'textile==2.1.5',
 	],
